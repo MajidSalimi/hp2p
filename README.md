@@ -20,6 +20,7 @@ Main program:
 ## Getting started
 
 ```
+$ ./autogen.sh
 $ ./configure --prefix=<path-to-install>
 $ make
 $ make install
