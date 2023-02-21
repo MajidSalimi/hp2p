@@ -21,7 +21,8 @@ Main program:
 
 ```
 $ ./autogen.sh
-$ ./configure --prefix=<path-to-install>
+$ ./configure
+$ ./configure --prefix=/build/   CXX="/m100/prod/opt/compilers/openmpi/4.1.2/gnu--8.4.0/bin/mpicxx"  CC="/m100/prod/opt/compilers/openmpi/4.1.2/gnu--8.4.0/bin/mpicc" CPP="gcc"
 $ make
 $ make install
 ```
